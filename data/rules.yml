@@ -1,0 +1,19 @@
+version: "2.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: tamBiet
+  - action: utter_tamBiet
+
+  
+- rule: fallback action
+  steps:
+  - intent: nlu_fallback 
+  - action: utter_fallback_unknow
+
+- rule: out-of-scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope

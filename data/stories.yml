@@ -1,0 +1,82 @@
+version: "2.0"
+
+stories:
+- story: SoTC
+  steps:
+  - intent: SoTC
+  - action: action_SoTC
+- story: Agree
+  steps:
+  - intent: Agree
+  - action: utter_MoiHoi
+- story: noAgree
+  steps:
+  - intent: noAgree
+  - action: utter_OK
+- story: BanChuNhiemKhoa
+  steps:
+  - intent: BanChuNhiemKhoa
+  - action: action_BanChuNhiemKhoa
+- story: xinChao
+  steps:
+  - intent: xinChao
+  - action: utter_xinChao
+- story: GioiThieuBoMon
+  steps:
+  - intent: GioiThieuBoMon
+  - action: action_GioiThieuBoMon
+- story: GioiThieuBot
+  steps:
+  - intent: GioiThieuBot
+  - action: utter_GioiThieuBot
+- story: story5
+  steps:
+  - intent: GioiThieuKhoa
+  - action: utter_GioiThieuKhoa
+  
+- story: HPTQ
+  steps:
+  - intent: HPTQ
+  - action: uter_HocPhanTienQuyet
+- story: MaHP
+  steps: 
+  - intent: MaHP
+  - action: action_MaHP
+    
+- story: SoTC
+  steps:
+  - intent: SoTC
+  - action: action_SoTC
+
+- story: tamBiet
+  steps:
+  - intent: tamBiet
+  - action: utter_tamBiet
+- story: CongDung
+  steps:
+  - intent: CongDung
+  - action: utter_CongDung
+- story: thanks
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+- story: TieuCuc
+  steps:
+  - intent: TieuCuc
+  - action: utter_TieuCuc
+
+- story: ChucVuGV
+  steps: 
+  - intent: ChucVuGV
+  - action: action_ChucVuGV
+  
+- story: CTHV
+  steps:
+  - intent: CTHV
+  - action: action_CTHV
+  
+- story: HKThuHien
+  steps:
+  - intent: HKThuHien
+  - action: action_HKThucHien
+

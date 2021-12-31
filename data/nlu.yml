@@ -1,0 +1,524 @@
+version: "2.0"
+
+nlu:
+- intent: Agree
+  examples: |
+    - có
+    - Tất nhiên là có
+    - tất nhiên là có
+    - có
+    - tất nhiên rồi
+    - dạ có
+    - có chứ
+    - đúng rồi
+    - tiếp tục
+    - tiếp tục chứ
+    - đồng ý
+    - tôi có
+    - tôi đồng ý
+    - vẫn tiếp tục
+    - ok
+    - phải
+    - chính xác
+- intent: BanChuNhiemKhoa
+  examples: |
+    - [trưởng khoa](BCN) là ai
+    - cho tôi biết về [trưởng khoa](BCN)
+    - ai là [trưởng khoa](BCN)
+    - tôi cần biết thông tin về [trưởng khoa](BCN)
+    - [trưởng khoa](BCN) tên gì
+    - [trưởng khoa](BCN) và [phó trưởng khoa](BCN) là ai
+    - ai là [phó trưởng khoa](BCN)
+    - cho tôi biết về [phó trưởng khoa](BCN)
+    - [phó trưởng khoa](BCN) là ai
+    - tôi cần biết thông tin về [phó trưởng khoa](BCN)
+    - [phó trưởng khoa](BCN) gồm những ai
+    - [trưởng khoa](BCN)
+    - [phó trưởng khoa](BCN)
+    - [phó khoa](BCN) là ai
+
+
+- intent: CTHV
+  examples: |
+    - tôi muốn biết [chương trình đào tạo](dn) là gì
+    - [kế hoạch học tập](dn) là như thế nào
+    - [hạnh phúc](dn) là cái gì
+    - tôi không hiểu [học bổng khuyến khích học tập](dn) là cái gì
+    - [học phần tiên quyết](dn) là như thế nào
+    - [lớp chuyên nghành](dn)
+    - tôi muốn biết [kế hoạch học tập](dn) là gì
+    - tôi muốn biết [học phần](dn) là gì
+    - tôi muốn biết [học phần bắt buộc](dn) là gì
+    - tôi muốn biết [học tập](dn) là gì
+    - tôi muốn biết [chương trình đào tạo](dn) là gì
+    - tôi muốn biết [kế hoạch học tập](dn) là gì
+    - tôi muốn biết [cảnh báo học vụ](dn) là gì
+    - tôi muốn biết [lớp học phần](dn) là gì
+    - tôi muốn biết [lớp chuyên ngành](dn) là gì
+    - tôi muốn biết [tín chỉ](dn) là gì?
+    - [chương trình đào tạo](dn) là như thế nào
+    - [kế hoạch học tập](dn) là như thế nào
+    - [học phần](dn) là như thế nào
+    - [học phần bắt buộc](dn) là như thế nào
+    - [học phần tự chọn](dn) là như thế nào
+    - [chương trình đào tạo](dn) là như thế nào
+    - [học phần điều kiện](dn) là như thế nào
+    - [lớp học phần](dn) là như thế nào
+    - [lớp chuyên nghành](dn) là như thế nào
+    - [tín chỉ](dn) là như thế nào
+    - [kế hoạch học tập](dn) là cái gì
+    - [học phần](dn) là cái gì
+    - [học phần bắt buộc](dn) là cái gì
+    - [học phần tự chọn](dn) là cái gì
+    - [kế hoạch học tập](dn) là cái gì
+    - [chương trình đào tạo](dn) là cái gì
+    - [học phần điều kiện](dn) là cái gì
+    - [lớp học phần](dn) là cái gì
+    - [lớp chuyên nghành](dn) là cái gì
+    - [tín chỉ](dn) là cái gì
+    - tôi không hiểu [chương trình đào tạo](dn) là cái gì
+    - tôi không hiểu [kế hoạch học tập](dn) là cái gì
+    - tôi không hiểu [học phần](dn) là cái gì
+    - tôi không hiểu [học phần bắt buộc](dn) là cái gì
+    - tôi không hiểu [học phần tự chọn](dn) là cái gì
+    - tôi không hiểu [học phần song hành](dn) là cái gì
+    - tôi không hiểu [học phần điều kiện](dn) là cái gì
+    - tôi không hiểu [lớp học phần](dn) là cái gì
+    - tôi không hiểu [lớp chuyên nghành](dn) là cái gì
+    - tôi không hiểu [tín chỉ](dn) là cái gì
+    - [chương trình đào tạo](dn)
+    - [kế hoạch học tập](dn)
+    - [học phần](dn)
+    - [học phần bắt buộc](dn)
+    - [học phần tự chọn](dn)
+    - [học phần tiên quyết](dn)
+    - [học phần song hành](dn)
+    - [học phần điều kiện](dn)
+    - [lớp học phần](dn)
+    - [tín chỉ](dn)
+    - [đình chỉ học tập](dn)
+    - [buộc thôi học](dn) khi nào
+    - điều kiện [buộc thôi học](dn) là gì
+    - [cấm thi](dn) khi nào
+    - điều kiện bị [cấm thi](dn) là gì
+    - tại sao bị [cấm thi](dn)
+    - [học phần song hành](dn) là gì
+    - như thế nào mới [bị đuổi học](dn:buộc thôi học)
+
+- intent: ChucVuGV
+  examples: |
+    - ai là [trưởng](CV) bộ môn [công nghệ thông tin](BM)
+    - cho tôi biết về [phó](CV) trưởng bộ môn [công nghệ thông tin](BM)
+    - [trưởng](CV) bộ môn [công nghệ thông tin](BM) là ai
+    - tôi cần biết thông tin về [trưởng](CV) bộ môn [công nghệ thông tin](BM)
+    - [phó](CV) trưởng bộ môn [công nghệ thông tin](BM) tên gì
+    - [trưởng](CV) bộ môn [khoa học máy tính](BM) tên gì
+    - ai là [phó](CV) trưởng bộ môn [khoa học máy tính](BM)
+    - cho tôi biết về [trưởng](CV) bộ môn [khoa học máy tính](BM)
+    - [trưởng](CV) bộ môn [khoa học máy tính](BM) là ai
+    - tôi cần biết thông tin về [phó](CV) trưởng bộ môn [khoa học máy tính](BM)
+    - [phó](CV) trưởng bộ môn [công nghệ phần mềm](BM) tên gì
+    - ai là [trưởng](CV) bộ môn [công nghệ phần mềm](BM)
+    - cho tôi biết về [trưởng](CV) bộ môn [công nghệ phần mềm](BM)
+    - [phó](CV) trưởng bộ môn [công nghệ phần mềm](BM) là ai
+    - tôi cần biết thông tin về [trưởng](CV) bộ môn [công nghệ phần mềm](BM)
+    - [phó](CV) trưởng bộ môn [hệ thống thông tin](BM)
+    - ai là [trưởng](CV) bộ môn [hệ thống thông tin](BM)
+    - cho tôi biết về [trưởng](CV) bộ môn [hệ thống thông tin](BM)
+    - [phó](CV) trưởng bộ môn [hệ thống thông tin](BM) là ai
+    - tôi cần biết thông tin về [trưởng](CV) bộ môn [hệ thống thông tin](BM)
+    - [phó](CV) trưởng bộ môn [tin học ứng dụng](BM)
+    - ai là [trưởng](CV) bộ môn [tin học ứng dụng](BM)
+    - cho tôi biết về [trưởng](CV) bộ môn [tin học ứng dụng](BM)
+    - [phó](CV) trưởng bộ môn [tin học ứng dụng](BM) là ai
+    - tôi cần biết thông tin về [trưởng](CV) bộ môn [tin học ứng dụng](BM)
+    - [trưởng](CV) bộ môn [Mạng máy tính và truyền thông](BM)
+    - ai là [trưởng](CV) bộ môn [Mạng máy tính và truyền thông](BM)
+    - cho tôi biết về [phó](CV) trưởng bộ môn [truyền thông mạng máy tính](BM)
+    - [phó](CV) trưởng [truyền thông mạng máy tính](BM) là ai
+    - tôi cần biết thông tin về [trưởng](CV) bộ [truyền thông mạng máy tính](BM)
+    - [trưởng](CV) bộ môn là ai
+    - [trưởng](CV) bộ môn [công nghệ thông tin](BM) là ai
+    - [phó](CV) khoa
+    - [phó](CV) khoa là ai
+    - [Trưởng](CV:trưởng) bộ môn [hệ thống thông tin](BM) là ai
+
+- intent: CongDung
+  examples: |
+    - bạn có thể giúp gì cho tôi
+    - bạn làm được gì
+    - bạn giúp được gì
+    - công dụng của bạn là gì
+    - lợi ích của bạn
+    - bạn làm được gì cho tôi
+    - vì sao bạn tồn tại
+    - bạn tồn tại để làm gì
+    - người ta phát minh ra bạn để làm gì
+    - người ta tạo ra bạn để làm gì
+    - vai trò của bạn
+    - bạn có hữu ích gì
+    - chức năng của bạn
+    - bạn có chức năng gì
+    - bạn có hữu dụng gì
+    - bạn có thể giúp gì được cho tôi
+    - bạn có thể giúp được gì cho tôi
+    - không. tôi chỉ muốn hỏi công dụng của bạn
+
+- intent: GioiThieuBoMon
+  examples: |
+    - giới thiệu về bộ môn [khoa học máy tính](BM)
+    - thông tin về [khmt](BM:khoa học máy tính)
+    - bộ môn [khoa học máy tính](BM)
+    - [khoa học máy tính](BM)
+    - [khmt](BM)
+    - cho tôi biết về bộ môn [khoa học máy tính](BM)
+    - Giới thiệu về bộ môn [công nghệ Thông tin](BM)
+    - thông tin về [cntt](BM:công nghệ thông tin)
+    - bộ môn [công nghệ Thông tin](BM)
+    - cho tôi biết về bộ môn [công nghệ Thông tin](BM)
+    - [công nghệ Thông tin](BM)
+    - [cntt](BM)
+    - Giới thiệu về bộ môn [hệ Thống Thông tin](BM)
+    - thông tin về [httt](BM:hệ thống thông tin)
+    - bộ môn [Hệ Thống Thông tin](BM)
+    - [httt](BM)
+    - cho tôi biết về bộ môn [Hệ Thống Thông tin](BM)
+    - Giới thiệu về bộ môn [công nghệ phần mềm](BM)
+    - thông tin về [kỹ thuật phần mềm](BM)
+    - bộ môn [ktpm](BM:kỹ thuật phần mềm)
+    - [công nghệ phần mềm](BM)
+    - [cnpm](BM)
+    - [kỹ thuật phần mềm](BM)
+    - [ktpm](BM)
+    - cho tôi biết về bộ môn [cnpm](BM:công nghệ phần mềm)
+    - Giới thiệu về bộ môn [Mạng máy tính và truyền thông](BM)
+    - Giới thiệu về bộ môn [MMT và TT](BM:mạng máy tính và truyền thông)
+    - thông tin về [MMT và TT](BM:mạng máy tính và truyền thông)
+    - cho tôi biết thông tin về 
+    - bộ môn [mmttt](BM:mạng máy tính và truyền thông)
+    - [Mạng máy tính và truyền thông](BM)
+    - [mmttt](BM)
+    - cho tôi biết về bộ môn [mmt&tt](BM:mạng máy tính và truyền thông)
+    - Giới thiệu về bộ môn [tin học ứng dụng](BM)
+    - thông tin về [thud](BM:tin học ứng dụng)
+    - bộ môn [Tin học ứng dụng](BM)
+    - [Tin học ứng dụng](BM)
+    - [thud](BM)
+    - cho tôi biết về bộ môn [Tin học ứng dụng](BM)
+    - giới thiệu về bộ môn [công nghệ thông tin](BM)
+    - [công nghệ thông tin](BM)
+    - giới thiệu về bộ môn khoa công nghệ thông tin
+    - thông tin về bộ môn khoa công nghệ thông tin
+    - bộ môn khoa công nghệ thông tin
+    - giới thiệu về bộ môn [khoa học máy tính](BM)
+    - giới thiệu về bộ môn [công nghệ thông tin](BM)
+    - [công nghệ thông tin](BM)
+    - [hệ thống thông tin](BM)
+
+
+- intent: GioiThieuBot
+  examples: |
+    - bạn là ai ?
+    - bạn tên gì ?
+    - tên của bạn là gì ?
+    - hãy cho tôi biết về bạn ?
+    - cho tôi biết thông tin về bạn ?
+    - giới thiệu về bản thân bạn đi ?
+    - bạn hãy giới thiệu về mình ?
+    - tôi không biết bạn là ai?
+    - bạn nói về mình đi ?
+    - thông tin về bạn ?
+    - bạn có thể tự giới thiệu về mình ?
+    - hãy cho tôi biết tên bạn ?
+    - tôi chỉ muốn hỏi bạn tên gì ?
+    - tôi muốn biết bạn tên gì ?
+    - bạn tên gì
+    - bạn tên gì
+    - bạn tên gì
+
+- intent: GioiThieuKhoa
+  examples: |
+    - Khoa công nghệ thông tin và truyền thông
+    - cho tôi biết khoa công nghệ thông tin và truyền thông
+    - giới thiệu về khoa
+    - giới thiệu về khoa công nghệ thông tin và truyền thông
+    - thông tin về khoa
+    - cho tôi biết thông tin về khoa
+    - sơ lược về khoa
+    - thông tin về khoa công nghệ thông tin và truyền thông
+    - hay cho tôi biết về khoa công nghệ thông tin và truyền thông
+    - khoa CNTT và TT
+    - CNTT và TT
+    - CNTT TT
+    - giới thiệu về khoa CNTT và TT
+    - giới thiệu về khoa công nghệ thông tin
+
+- intent: HPTQ
+  examples: |
+    - [học phần tiên quyết](dn) của [anh văn căn bản 2](THP) là gì
+    - học phần nào là [học phần song hành](dn) của [anh văn căn bản 3](THP)
+    - cho tôi biết [học phần tiên quết](dn) của [anh văn tăng cường 2](THP)
+    - [anh văn tăng cường 3](THP) [tiên quyết](dn) bởi học phần nào
+    - các [học phân song hành](dn) của học phần [pháp văn căn bản 2](THP)
+    - [tiên quyết](dn) của học phần [pháp văn căn bản 3](THP)
+    - môn [tiên quyết](dn) của [pháp văn tăng cường 2](THP) là gì
+    - môn nào là môn [song hành](dn) của [pháp văn tăng cường 3](THP)
+    - cho tôi biết [học phần tiên quyết](dn) của [chủ nghĩa xã hội khoa học](THP)
+    - [tư tưởng hồ chí minh](THP) [tiên quyết](dn) bởi học phần nào
+    - các học phân [song hành](dn) của học phần [pháp luật đại cương](THP)
+    - [tiên quyết](dn) của học phần [vi tích phân a1](THP)
+    - [học phần tiên quyết](dn) của học phần [vi tích phân 2](THP) là gì
+    - [học phần tiên quyết](dn) của môn [anh văn căn bản 2](THP) là gì
+    - [học phần tiên quyết](dn) của [ct172](MHP) là gì
+    - học phần nào là [học phần song hành](dn) của [ct109](MHP)
+    - cho tôi biết [học phần tiên quết](dn) của [xh024](MHP)
+    - [ML014](MHP) [tiên quyết](dn) bởi học phần nào
+    - các [học phân song hành](dn) của học phần [FL009](MHP)
+    - [tiên quyết](dn) của học phần [KL001](MHP)
+    - môn [tiên quyết](dn) của [TN002](MHP) là gì
+    - môn nào là môn [song hành](dn) của [KN001](MHP)
+    - cho tôi biết [học phần tiên quyết](dn) của [ct457](MHP)
+    - [QP009](MHP) [tiên quyết](dn) bởi học phần nào
+    - các học phân [song hành](dn) của học phần [toán rời rạc](THP)
+    - [tiên quyết](dn) của học phần [nguyên lý máy học](THP)
+    - [học phần tiên quyết](dn) của học phần [nền tảng công nghệ thông tin](THP) là gì
+    - [XH006](MHP) có phải là [học phần bắt buộc](dn) hay không
+    - môn [Phân tích và thiết kế thuật toán](THP) có phải là [học phần bắt buộc](dn)
+    - [Niên luận ngành Kỹ thuật phần mềm](THP) có phải là [học phần tự chọn](dn)
+    - [ML005](MHP) có phải là [học phần tự chọn](dn)
+    - [XH005](MHP) có phải là môn [tự chọn](dn)
+    - [học phần tiên quyết](dn) của [toán rời rạc](THP) là gì
+    - [học phần tiên quyết](dn) của [phân tích thiết](THP) [kế](dn) [hệ thống thông tin](BM) là gì
+    - [học phần tiên quyết](dn) của môn [phân tích thiết kế hệ thống thông tin](THP) là gì
+    - [học phần song hành](dn) của học phần ngôn ngữ [tự nhiên](dn) là gì
+    - [học phần song hành](dn) của học phần [ngôn ngữ tự nhiên](THP) là gì
+    - [học phần tiên quyết](dn) của học phần [ct205](MHP) là gì
+    - [học phần tiên quyết](dn) của [toán rời rạc](THP) là gì
+    - [học phần tiên qyết](dn) của học phần [tư tưởng hồ chí minh](THP) là gì
+    - [ct178](MHP) có [học phần tiên quyết](dn) là gì
+    - [học phần tiên quyết](dn) [ct201](MHP) là gì
+
+- intent: MaHP
+  examples: |
+    - mã học phần [QP006](MHP) là học phần gì
+    - [TC100](MHP) là học phần gì
+    - [TC100](MHP) [TC102](MHP) là học phần gì
+    - [TC100](MHP) là môn gì
+    - [TN002](MHP) [XH003](MHP) là môn gì
+    - [KL123](MHP) và [FL456](MHP) là học phần gì
+    - tên học phần cuả [XH023](MHP) là gì
+    - [FL001](MHP) và [ct179](MHP) là học phần gì
+    - cho tôi biết tên của học phần [ML014](MHP)
+    - tên học phần của [XH028](MHP) và [TN001](MHP)
+    - học phần [ct176](MHP) là học phần gì
+    - [ct232](MHP) là môn gì
+    - [ct179](MHP) là học phần gì
+    - mã học phần của [anh văn căn bản 2](THP) là gì
+    - [Pháp luật đại cương](THP) là có mã học phần gì
+    - [kỹ năng mềm](THP) và [kỹ năng học đại học](THP) có mã học phần là gì
+    - cho tôi biết mã của học phần [cơ sở dữ liệu](THP)
+    - học phần [Toán rời rạc](THP) và [Cơ sở văn hóa Việt Nam](THP) có mã học phần là gì
+    - môn [Bảo trì phần mềm](THP) có mã học phần gì
+    - [Lý thuyết thông tin](THP) có mã môn là gì
+    - mã môn [Đồ họa máy tính](THP)
+    - [ct201](MHP) là học phần gì
+    - [anh văn căn bản 1](THP)
+    - [toán tời rạc](THP)
+    - [ct179](MHP)
+    - [pháp luật đại cương](THP)
+    - [xử lý ngôn ngữ tự nhiên](THP)
+    - [XH003](MHP)
+    - [KN006](MHP)
+- intent: SoTC
+  examples: |
+    - số tín chỉ của bộ môn [công nghệ thông tin](BM)
+    - Tổng số tín chỉ của bộ môn [khoa học máy tính](BM)
+    - [công nghệ phần mềm](BM) có bao nhiêu tín chỉ
+    - số tín chỉ của học phần [ct179](MHP)
+    - số tín chỉ của môn [Chủ nghĩa xã hội khoa học](THP)
+    - [Logic học đại cương](THP) có bao nhiêu tín chỉ
+    - học phần [Văn bản và lưu trữ học đại cương](THP) có bao nhiêu tín chỉ
+    - môn [Đại số tuyến tính và hình học](THP) có bao nhiêu tín chỉ
+    - học phần [XH014](MHP) có bao nhiêu chỉ
+    - [ML014](MHP) bao nhiêu chỉ
+    - cho tôi biết số tín chỉ của bộ môn [hệ thống thông tin](BM)
+    - [pháp luật đại cương](THP) có bao nhiêu chỉ
+    - cho tôi biết số tín chỉ của [vi tích phân a2](THP)
+- intent: TieuCuc
+  examples: |
+    - mầy ngu quá
+    - bot ngu quá
+    - ngu quá đi
+    - xàm quá
+    - ngu học
+    - bot ngu si
+    - ngu si
+    - ngu
+    - xàm quá
+    - xàm xàm
+    - tào lao ghê
+    - tào lao
+    - vô dụng
+    - bot ngáo
+    - sao bạn ngu vậy
+
+
+- intent: noAgree
+  examples: |
+    - không
+    - không có
+    - không tiếp tục
+    - ngừng lại
+    - không đó
+    - stop
+    - ngưng
+    - dừng lại
+    - ngừng lại
+    - bắt đầu lại
+    - restart
+    - được rồi dừng lại
+    - đứng lại
+    - không đồng ý
+    - không 
+
+- intent: tamBiet
+  examples: |
+    - tạm biệt
+    - rất vui khi được gặp bạn
+    - bye
+    - see you later
+    - bye bot
+    - hẹn gặp lại
+    - bye bye
+    - tam biệt bot
+    - gặp lại sau
+    - vĩnh biệt bot
+    - hẹn ngày gặp lại
+    - goodbye
+    - bye bạn
+    - bye
+    - bye bạn
+    - bye
+    - bye
+    - bye bot
+    - bye bot
+    - bye bạn
+    - bye bạn
+
+- intent: thanks
+  examples: |
+    - thank you
+    - cảm ơn
+    - cảm ơn bạn
+    - cảm ơn bot
+    - cảm ơn bot rất nhiều
+    - cảm ơn nhiều
+    - thanks
+    - thank bot
+    - rất biết ơn
+    - đa tạ
+    - cảm ơn bot nha
+    - rất biết ơn bot
+    - ok cảm ơn bạn
+    - cảm ơn bạn
+    - cảm ơn
+    - thank you
+    - thank
+    - thank
+    - cảm ơn
+
+
+- intent: xinChao
+  examples: |
+    - xin chào
+    - chào
+    - alo
+    - hello
+    - hi
+    - xin chào bot
+    - bot ơi
+    - bạn bot
+    - bot
+    - chào bot
+    - hey bot
+    - chào bạn
+    - xin chào bạn bot
+    - hello
+    - hello
+    - hello
+    - hello
+    - hello
+    - hello
+    - hello
+    - hello
+- intent: HKThuHien
+  examples: |
+    - học kỳ thực hiện [nguyên lý máy học](THP)
+    - [ct255](MHP) có tổ chức học kì hè không
+    - [máy học nâng cao](THP) tổ chức ở HK nào
+    - học kì hè [ct456](MHP) có lớp hay không
+    - [pháp luật đại cương](THP) có mở lớp ở học kì hè không
+    - [ct201](MHP) có mở học kì hè không
+    - [toán rời rạc](THP) có tổ chức học kì hè ?
+    - [ngôn ngữ mô hình hóa](THP) có mở lớp ở học kì hè
+    - [ct205](MHP) mở lớp ở học kì nào
+    - [XH002](MHP) có mở lớp ở học kì 2 không
+    - [khai khoán dữ liệu](THP) có mở lớp ở học kì 1
+    - [hệ thống thông tin doanh nghiệp](THP) có mở lớp ở học kì này
+    
+- synonym: công nghệ phần mềm
+  examples: |
+    - cnpm
+    - CNPM
+    
+- synonym: công nghệ thông tin
+  examples: |
+    - cntt
+    - CNTT
+- synonym: hệ thống thông tin
+  examples: |
+    - httt
+    - HTTT
+- synonym: khoa học máy tính
+  examples: |
+    - khmt
+    - KHMT  
+- synonym: kỹ thuật phần mềm
+  examples: |
+    - ktpm
+    - KTPM 
+- synonym: mạng máy tính và truyền thông
+  examples: |
+    - MMT và TT
+    - mmttt
+    - mmt&tt
+    - MMTTT
+    - MMT&TT
+    - MMT & TT
+    - mmt và tt
+    - mmt & tt
+    
+- synonym: tin học ứng dụng
+  examples: |
+    - thud
+    - THUD
+- synonym: trưởng
+  examples: |
+    - Trưởng
+    - TRƯỞNG
+    
+- regex: MHP
+  examples: |
+    - [a-zA-Z]{2}[0-9]{3}
+ 
+- lookup: dn
+  examples: |
+   - data/lookup/TenDN.txt 
+ 
+- lookup: BM
+  examples: |
+   - data/lookup/TenBM.txt
+     
+- lookup: THP
+  examples: |
+   - data/lookup/TenHP.txt

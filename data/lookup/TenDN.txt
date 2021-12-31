@@ -1,0 +1,16 @@
+học phần
+học phần bắt buộc
+học phần tự chọn
+học phần tiên quyết
+học phần song hành
+học phần điều kiện
+lớp học phần
+lớp chuyên ngành
+tín chỉ
+chương trình đào tạo
+kế hoạch học tập
+học bổng khuyến khích học tập
+cảnh báo học vụ
+đình chỉ học tập
+buộc thôi học
+cấm thi

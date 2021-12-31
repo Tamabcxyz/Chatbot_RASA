@@ -1,0 +1,182 @@
+niên luận ngành kỹ thuật phần mềm
+niên luận cơ sở ngành ktpm
+lập trình song song
+mỹ thuật web
+đồ họa nâng cao
+pháp văn tăng cường 2
+chuyên đề lập trình trên di động
+kiến trúc máy tính
+giáo dục thể chất 123
+quản trị dữ liệu ứng dụng
+lập trình ứng dụng
+lịch sử đảng cộng sản việt nam
+phát triển ứng dụng trên linux
+kỹ thuật khai khoáng dữ liệu và ứng dụng
+nền tảng phần mềm nhúng và iot
+lý thuyết xếp hàng
+cơ sở dữ liệu đa phương tiện
+nguyên lý máy học
+tư tưởng hồ chí minh
+nguyên lý xây dựng phần mềm
+tiểu luận tốt nghiệp ttmmt
+lập trình web
+quản lý quy trình nghiệp vụ
+phát triển ứng dụng trên thiết bị di động
+quản trị cơ sở dữ liệu
+lập trình căn bản a
+cơ sở văn hóa việt nam
+anh văn căn bản 3
+pháp văn căn bản 2
+pháp văn căn bản 3
+lập trình hướng đối tượng
+tiểu luận tốt nghiệp thud
+phân tích yêu cầu phần mềm
+hoạt hình trên máy tính
+niên luận cơ sở ngành khoa học máy tính
+giải quyết sự cố mạng
+nhập môn công nghệ phần mềm
+niên luận thud
+phân tích và thiết kế thuật toán
+bảo trì phần mềm
+lập trình java
+xã hội học đại cương
+điện toán đám mây
+kinh tế chính trị mác lênin
+nhập môn lập trình web
+kỹ thuật dự báo
+văn bản và lưu trữ học đại cương
+pháp văn tăng cường 3
+thiết kế hệ thống nhúng và iot
+nguyên lý hệ điều hành
+kho dữ liệu và olap
+quản trị hệ thống
+thương mại điện tử cntt
+hệ thống quản lý sản xuất
+mạng máy tính
+phát triển hệ thống thông tin quản lý
+triển khai dịch vụ mạng và ứng dụng internet
+deep learning
+lập trình ứng dụng mạng
+xây dựng ứng dụng web với java
+phát triển hệ thống web
+phân tích dữ liệu trực quan
+cấu trúc dữ liệu
+pháp văn tăng cường 1
+tường lửa
+quản trị mạng trên ms windows
+triết học mác lênin
+kiến trúc phần mềm theo mô hình clientserver
+xác suất thống kê
+công nghệ web 3d
+đổi mới sáng tạo và khởi nghiệp
+lập trình game
+luận văn tốt nghiệp ttmmt
+pháp văn căn bản 1
+hệ cơ sở dữ liệu đa phương tiện
+phát triển hệ thống thông tin địa lý
+cơ sở dữ liệu nosql
+niên luận cơ sở mạng máy tính và truyền thông
+xử lý ngôn ngữ tự nhiên
+xây dựng ứng dụng web với net
+niên luận mạng máy tính và truyền thông
+lập trình frontend
+anh văn tăng cường 2
+ngôn ngữ mô hình hóa
+niên luận cơ sở ngành hệ thống thông tin
+thực tập thực tế ttmmt
+bảo mật website
+tiểu luận tốt nghiệp khmt
+lập trình net
+logic học đại cương
+anh văn căn bản 2
+đại số tuyến tính và hình học
+giáo dục quốc phòng và an ninh 2
+nhập môn mô phỏng
+an toàn và bảo mật thông tin
+nguyên lý hệ quản trị cơ sở dữ liệu
+kiểm chứng mô hình
+mạng không dây và di động
+quản trị dự án công nghệ thông tin
+lý thuyết thông tin
+anh văn tăng cường 1
+phương pháp tính
+phát triển ứng dụng web
+thực tập thực tế httt
+luận văn tốt nghiệp thud
+phát triển hệ thống thương mại điện tử
+hệ cơ sở tri thức
+pháp luật đại cương
+anh văn căn bản 1
+thị giác máy tính
+anh văn tăng cường 3
+phân lớp dữ liệu lớn
+đánh giá hiệu năng mạng
+phát triển phần mềm nhúng và iot
+giao diện người máy
+giáo dục quốc phòng và an ninh 3
+thiết kế và cài đặt mạng
+phát triển ứng dụng trên windows
+tiếng việt thực hành
+luận văn tốt nghiệp khmt
+xử lý ảnh
+cơ sở dữ liệu
+xây dựng ứng dụng web với php
+phân tích hệ thống hướng đối tượng
+lập trình cho thiết bị di động
+hệ thống hỏi đáp
+thực tập thực tế thud
+trí tuệ nhân tạo
+luận văn tốt nghiệp ktpm
+thực tập thực tế ktpm
+luận văn tốt nghiệp httt
+ngôn ngữ lập trình mô phỏng
+nhập môn trí tuệ nhân tạo
+quy hoạch tuyến tính
+phát triển phần mềm nhúng
+vi tích phân a2
+anh văn chuyên ngành công nghệ thông tin
+giao diện người – máy
+niên luận cơ sở thud
+lý thuyết đồ thị
+giáo dục quốc phòng và an ninh 4
+lập trình mạng
+phát triển ứng dụng hướng dịch vụ
+kỹ thuật phát hiện tấn công mạng
+tiểu luận tốt nghiệp httt
+thực tập thực tế khmt
+quản trị mạng
+kỹ năng học đại học
+bảo mật an toàn hệ thống thông tin
+quản lý dự án phần mềm
+xử lý dữ liệu lớn
+nghiệp vụ thông minh
+quản trị dữ liệu
+phát triển ứng dụng nghiệp vụ
+công nghệ j2ee
+xây dựng web services và web api
+xây dựng ứng dụng thương mại điện tử
+phân tích và thiết kế hệ thống
+kiến trúc và thiết kế phần mềm
+đồ họa máy tính
+khai khoáng dữ liệu
+an toàn hệ thống
+phát triển phần mềm mô phỏng
+tiểu luận tốt nghiệp ktpm
+vi tích phân a1
+nền tảng công nghệ thông tin
+lập trình trò chơi
+lập trình python
+toán rời rạc
+tin học lý thuyết
+chủ nghĩa xã hội khoa học
+niên luận ngành hệ thống thông tin
+đảm bảo chất lượng và kiểm thử phần mềm
+cơ sơ dữ liệu phân tán
+xây dựng hệ thống thông tin địa lý
+giáo dục quốc phòng và an ninh 1
+phát triển phần mềm mã nguồn mở
+máy học ứng dụng
+niên luận ngành khoa học máy tính
+an ninh mạng
+bảo mật hệ thống và an ninh mạng
+kỹ năng mềm

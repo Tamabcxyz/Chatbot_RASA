@@ -1,0 +1,10 @@
+[
+  {
+    "text": "ph\u00f3 khoa l\u00e0 ai",
+    "intent": "BanChuNhiemKhoa",
+    "intent_prediction": {
+      "name": "ChucVuGV",
+      "confidence": 0.7992842197418213
+    }
+  }
+]

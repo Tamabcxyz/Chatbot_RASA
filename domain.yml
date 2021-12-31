@@ -1,0 +1,120 @@
+version: "2.0"
+
+intents:
+    - thanks
+    - GioiThieuBoMon
+    - tamBiet
+    - HPTQ
+    - Agree
+    - xinChao
+    - GioiThieuBot
+    - MaHP
+    - CTHV
+    - GioiThieuKhoa
+    - ChucVuGV
+    - BanChuNhiemKhoa
+    - TieuCuc
+    - CongDung
+    - SoTC
+    - noAgree
+    - HKThuHien
+actions:  
+    - action_BanChuNhiemKhoa
+    - action_CTHV
+    - action_ChucVuGV
+    - action_GioiThieuBoMon
+    - action_HKThucHien
+    - action_MaHP
+    - action_SoTC
+    - action_restart
+    - action_slot_reset
+    
+entities:
+    - BCN
+    - BM
+    - CV
+    - MHP
+    - THP
+    - dn
+
+
+slots:
+  BCN:
+    type: list
+  BM:
+    type: list
+  CV:
+    type: list
+  MHP:
+    type: list
+  THP:
+    type: list
+  dn:
+    type: list
+  requested_slot:
+    type: unfeaturized
+responses:
+  utter_CongDung:
+  - text: "Do là mới được phát minh gần đây\nNên tôi chỉ giúp bạn được các vấn đề sau:\n -Giới thiệu về trường Đại học Cần Thơ\n -Giới thiệu về khoa CNTT và TT\n -Công Tác học vụ như: Học phần tiên quyết là gì ? ,..\n -Giới thiệu về\\ bộ môn\n -Chức vụ giảng viên như: Trưởng khoa là ai ?,.."
+  uter_HocPhanTienQuyet:
+  - text: "Là học phần bắt buộc phải học trước"
+  utter_GioiThieuBot:
+  - text: "Tôi là bot!\nNhiệm vụ của tôi là giới thiệu về Khoa CNTT và TT của Trường\ ĐHCT\nBạn cần tôi giúp gì ?"
+  utter_GioiThieuDHCT:
+  - text: Trường Đại học Cần Thơ là một trong ba trường đại học đứng đầu về đào tạo
+      đa ngành tại Việt Nam, là một trụ cột trong hệ thống giáo dục bậc cao của Việt
+      Nam, được xếp vào nhóm trường đại học trọng điểm quốc gia, trường là một trong
+      ba trường đại học tại Việt Nam đạt chuẩn đào tạo quốc tế của Hệ thống đại học
+      ASEAN, bằng cấp có giá trị sử dụng toàn Đông Nam Á.
+  utter_GioiThieuKhoa:
+  - text: Khoa CNTT và TT được thành lập năm 1994, Khoa Công nghệ Thông tin và Truyền
+      thông (CNTT&TT), một trong bảy khoa trọng điểm về lĩnh vực công nghệ thông tin
+      của Việt Nam, đã không ngừng hoàn thiện và phát triển vững mạnh. Năm 2019, Khoa
+      nhận được Huân chương lao động hạng ba của Chủ tịch nước. Sứ mệnh của Khoa là
+      đào tạo, nghiên cứu khoa học và chuyển giao công nghệ trong lĩnh vực CNTT&TT.
+      Tầm nhìn đến 2025, Khoa trở thành một trung tâm đào tạo và nghiên cứu khoa học
+      đẳng cấp trong nước và khu vực Đông Nam Á về lĩnh vực CNTT&TT.
+  utter_MoiHoi:
+  - text: Mời bạn hỏi !
+  utter_NhapLai:
+  - text: Vui lòng nhập lại tên bộ môn ?
+  utter_OK:
+  - text: OK !
+  utter_TiepTuc:
+  - text: Bạn muốn hỏi gì nữa không ?
+  - text: Bạn còn muốn hỏi gì nữa không ?
+  utter_TieuCuc:
+  - text: Tại hai thằng kia.
+  utter_ask_BM:
+  - text: Vui lòng nhập vào bộ môn bạn muốn hỏi ?
+  utter_chitchat:
+  - text: Bạn nghĩ xem tôi có hiểu ?
+  utter_hoiTiepko:
+  - text: bạn có muốn tiếp tục hỏi về {dn} của {THP} {MHP} không ?
+  utter_koHieu:
+  - text: Xin lỗi tôi không hiểu !
+  utter_noBM:
+  - text: Xin lỗi! Tôi không xác định được tên bộ môn.
+  utter_submit:
+  - text: Đã Xong !
+  utter_tamBiet:
+  - text: Bye!
+  utter_thanks:
+  - text: "Không có chi!\nĐây là nhiệm vụ của tôi mà mà!"
+  utter_wrong_BM:
+  - text: Bộ môn của bạn không có trong danh sách !
+  utter_xinChao:
+  - text: "Chào bạn!\nTôi có thể giúp gì cho bạn ?"
+  utter_iamabot:
+  - text: "Tôi là bot, tên tôi là BigCityBoy."
+  utter_fallback_unknow:
+  - text: "Xin lỗi bot không hiểu bạn nói gì, bạn có thể diễn đạt ý bằng câu khác (vui lòng gõ tiếng Việt có dấu)?"
+  
+  utter_out_of_scope:
+  - text: "Xin lỗi bot không hiểu bạn nói gì, bạn có thể diễn đạt ý bằng câu khác (vui lòng gõ tiếng Việt có dấu)?"
+
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+

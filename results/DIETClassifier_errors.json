@@ -1,0 +1,117 @@
+[
+  {
+    "text": "ph\u00f3 khoa l\u00e0 ai",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "ph\u00f3",
+        "entity": "CV"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "BCN",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.6073636412620544,
+        "value": "ph\u00f3 khoa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "h\u1ecdc ph\u1ea7n ti\u00ean quy\u1ebft c\u1ee7a ph\u00e2n t\u00edch thi\u1ebft k\u1ebf h\u1ec7 th\u1ed1ng th\u00f4ng tin l\u00e0 g\u00ec",
+    "entities": [
+      {
+        "start": 0,
+        "end": 19,
+        "value": "h\u1ecdc ph\u1ea7n ti\u00ean quy\u1ebft",
+        "entity": "dn"
+      },
+      {
+        "start": 24,
+        "end": 39,
+        "value": "ph\u00e2n t\u00edch thi\u1ebft",
+        "entity": "THP"
+      },
+      {
+        "start": 40,
+        "end": 42,
+        "value": "k\u1ebf",
+        "entity": "dn"
+      },
+      {
+        "start": 43,
+        "end": 61,
+        "value": "h\u1ec7 th\u1ed1ng th\u00f4ng tin",
+        "entity": "BM"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dn",
+        "start": 0,
+        "end": 19,
+        "confidence_entity": 0.9999059438705444,
+        "value": "h\u1ecdc ph\u1ea7n ti\u00ean quy\u1ebft",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "BM",
+        "start": 43,
+        "end": 61,
+        "confidence_entity": 0.9997808337211609,
+        "value": "h\u1ec7 th\u1ed1ng th\u00f4ng tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "h\u1ecdc ph\u1ea7n song h\u00e0nh c\u1ee7a h\u1ecdc ph\u1ea7n ng\u00f4n ng\u1eef t\u1ef1 nhi\u00ean l\u00e0 g\u00ec",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "h\u1ecdc ph\u1ea7n song h\u00e0nh",
+        "entity": "dn"
+      },
+      {
+        "start": 41,
+        "end": 49,
+        "value": "t\u1ef1 nhi\u00ean",
+        "entity": "dn"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dn",
+        "start": 0,
+        "end": 18,
+        "confidence_entity": 0.9998960494995117,
+        "value": "h\u1ecdc ph\u1ea7n song h\u00e0nh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "THP",
+        "start": 32,
+        "end": 49,
+        "confidence_entity": 0.5386656522750854,
+        "value": "ng\u00f4n ng\u1eef t\u1ef1 nhi\u00ean",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "m\u00e3 m\u00f4n \u0110\u1ed3 h\u1ecda m\u00e1y t\u00ednh",
+    "entities": [
+      {
+        "start": 7,
+        "end": 22,
+        "value": "\u0110\u1ed3 h\u1ecda m\u00e1y t\u00ednh",
+        "entity": "THP"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
