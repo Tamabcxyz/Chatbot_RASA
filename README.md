@@ -8,7 +8,7 @@ Tiếp tục thay thế đường dẫn tiếp theo HKEY_LOCAL_MACHINE\SOFTWARE\
 Save và chạy file vừa edit => Accept the registry modification.
 Khởi động lại máy.
 
-de kiem tra voice cua may tinh dung code sau:
+để kiểm tra voice sử dụng doạn code sau:
 import pyttsx3
 
 converter = pyttsx3.init() 
